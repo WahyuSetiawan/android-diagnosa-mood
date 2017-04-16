@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrollview1"
+	android:background="#ffffff"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout
+	android:id="@+id/linearlayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+<TextView
+	android:id="@+id/textview1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="-">
+	</TextView>
+	</LinearLayout>
+<ImageView
+	android:id="@+id/imgprofil"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:src="@drawable/helpsupport">
+	</ImageView>
+	
+<LinearLayout
+	android:id="@+id/linearlayout2"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+<TextView
+	android:id="@+id/textview2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="-">
+	</TextView>
+	</LinearLayout>
+	
+<TextView
+	android:id="@+id/textjudul1"
+	android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="Informasi Psikologi Klinis V 1.1"
+	android:textAppearance="?android:attr/textAppearanceLarge">
+	</TextView>
+	
+<LinearLayout
+	android:id="@+id/linearlayout3"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textjudul3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:text="Psikologi Klinis adalah sebuah ilmu terapan psikologi yang mempelajari perilaku khususnya remaja yang mengalami masalah dalam penyesuain diri dan tingkah laku abnormal."
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#000000" >
+
+	</TextView>
+
+<TextView
+    android:id="@+id/textjudul4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Sistem Pakar merupakan ilmu yang mempelajari tentang kecerdasan buatan."
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#000000" />
+
+<TextView
+    android:id="@+id/textjudul5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Psikologi klinis meneropong gejala-gejala yang dapat mengurangi kemungkinan manusia untuk berbahagia"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#000000" />
+
+<TextView
+    android:id="@+id/textjudul6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Kebahagian erat hubungannya dengan kehidupan emosional-sensitif dan harus dibedakan dengan kepuasan yang lebih berhubungan dengan segi-segi rasional dan intelektual."
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#000000" />
+
+<TextView
+    android:id="@+id/textjudul7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Terdapat beberapa gejala yang dapat membuat seorang remaja dikatakan abnormal yang telah terangkum dalam test kepribadian dalam aplikasi ini."
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#000000" />
+
+<TextView
+    android:id="@+id/textjudul8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#000000" />
+
+<TextView
+    android:id="@+id/textjudul9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#000000" />
+
+	</LinearLayout>
+
+	</LinearLayout>
+	</ScrollView>

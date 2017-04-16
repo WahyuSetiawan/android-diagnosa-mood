@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <Button
+        android:id="@+id/btn_hasil_diagnosa_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Kembali" />
+
+    <TextView
+        android:id="@+id/txt_hasil_diagnosa_gangguan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:gravity="center_horizontal"
+        android:text="Gangguan"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txt_hasil_pengertian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_diagnosa_saran"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Pengertian"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_hasil_diagnosa_saran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_diagnosa_gangguan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:gravity="center_horizontal"
+        android:text="Saran"
+        android:textSize="20sp" />
+
+</RelativeLayout>
